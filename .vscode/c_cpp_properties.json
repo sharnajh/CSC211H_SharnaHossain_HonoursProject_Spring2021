@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "CrossingStreetSimEditor Editor Win64 Development (CrossingStreetSim)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_CrossingStreetSim.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

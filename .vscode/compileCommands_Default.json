@@ -1,0 +1,77 @@
+[
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CarSpawn.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CarSpawn.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CrossingStreetSim.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CrossingStreetSim.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CrossingStreetSim.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CrossingStreetSimGameModeBase.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\CrossingStreetSimGameModeBase.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\MyHUD.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\MyHUD.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\Sedan.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\Sedan.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\SignalLights.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\SignalLights.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\VRCharacter.cpp",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\Sharna\\\\Documents\\\\Unreal Projects\\\\CrossingStreetSim\\\\Source\\\\CrossingStreetSim\\\\VRCharacter.h",
+		"command": "cl.exe @\"C:\\Users\\Sharna\\Documents\\Unreal Projects\\CrossingStreetSim\\.vscode\\compileCommands_Default\\CrossingStreetSim.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]
