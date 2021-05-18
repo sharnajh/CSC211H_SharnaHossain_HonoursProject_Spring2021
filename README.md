@@ -12,8 +12,10 @@ One solution is to create an online  learning platform for autistic children tha
 - Visual Studio Code
 - [Kenney.nl](https://kenney.nl/)
 
-### UML Design
-![](Config/uml.png)
+### Algorithm
+![](Config/algorithm.png)
+### UML
+![](Config/UML.png)
 ### Challenges
 - The biggest challenge I faced with this project was learning Unreal Engine for the first time. Unreal Engine is a complex and powerful game engine that requires a learning curve for new developers, and it was a daunting but rewarding experience to learn how to develop applications with Unreal. 
 - My second biggest challenge was integrating this application to be accessible with a Virtual Reality headset without incurring virtual reality motion sickness. Virtual Reality motion sickness is when a user feels unwell because their eyes are manipulated to believe that they are moving, but their other four senses understand that they are not moving. My solution to this challenge was to make the application accessible via desktop, as it was originally meant to solely be a VR application.
