@@ -1,6 +1,7 @@
 # Pedestrian Safety Simulation for Autistic Children
 ## CSC 211H Spring 2021  Honours Project
 ## [Project Website](https://sites.google.com/view/csc211hsharna/home "Website") | [Video Demo](https://youtu.be/LqL8Kih2aLM "Video Demo")
+![](Config/screenshot.png)
 ### The Problem
 The problem that I am addressing in this project is the lack of accessible and affordable resources available to enrich the learning of autistic children. In the United States, parents can expect to pay upwards of $90,000 annually to provide their autistic children with the necessary programs to service them. The amount of products that are accessible to autistic children outside of these programs are scarce and equally expensive, leaving parents with very limited options.
 ### The Solution
