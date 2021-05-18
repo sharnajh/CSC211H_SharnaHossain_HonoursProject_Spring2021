@@ -1,9 +1,9 @@
 # Pedestrian Safety Simulation for Autistic Children
 ## CSC 211H Spring 2021  Honours Project
 ## [Project Website](https://sites.google.com/view/csc211hsharna/home "Website") | [Video Demo](https://youtu.be/LqL8Kih2aLM "Video Demo")
-###The Problem
+### The Problem
 The problem that I am addressing in this project is the lack of accessible and affordable resources available to enrich the learning of autistic children. In the United States, parents can expect to pay upwards of $90,000 annually to provide their autistic children with the necessary programs to service them. The amount of products that are accessible to autistic children outside of these programs are scarce and equally expensive, leaving parents with very limited options.
-###The Solution
+### The Solution
 One solution is to create an online  learning platform for autistic children that is accessible from a range of devices, such as desktop, mobile, and Virtual Reality. The platform would include modules that teach essential life skills to austistic children. The modules would be sensitive to the needs of an austistic child. For example, it will not include win or lose functionalities. Every part of the app would be in the favor and betterment of the child using it.
 ### Technologies & Resources Used
 - Unreal Engine
