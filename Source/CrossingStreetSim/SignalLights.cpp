@@ -4,6 +4,7 @@
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
 #include "Math/UnrealMathUtility.h"
+#include "Misc/FileHelper.h"
 
 // Sets default values for this component's properties
 USignalLights::USignalLights()
@@ -29,15 +30,6 @@ void USignalLights::BeginPlay()
 	StaticMesh = Components[0];
 
 	Player = GetWorld()->GetFirstPlayerController()->GetPawn();
-	// int32 Womp = FMath::RandRange(1,2);
-	// if (Womp == 1)
-	// {
-	// 	Go = false;
-	// }
-	// else
-	// {
-	// 	Go = true;
-	// }
 	Go = false;
 	Timer = 0;
 }
@@ -75,6 +67,7 @@ void USignalLights::Lights()
 		{
 			// Enable Collission
 			RoadBlock->SetActorEnableCollision(true);
+			RecordFailedAttempt();
 		}
 	}
 
@@ -84,5 +77,28 @@ void USignalLights::Lights()
 	{
 		Go = !Go;
 		Timer = 0;
+	}
+}
+
+void USignalLights::RecordFailedAttempt()
+{
+	FString AttemptsPath = FPaths::ProjectConfigDir();
+	AttemptsPath.Append(TEXT("Attempts.txt"));
+	IPlatformFile &FileManager = FPlatformFileManager::Get().GetPlatformFile();
+
+	if (FileManager.FileExists(*AttemptsPath))
+	{
+		FString AttemptsHeader(TEXT("X"));
+		if (FFileHelper::SaveStringToFile(AttemptsHeader, *AttemptsPath, FFileHelper::EEncodingOptions::AutoDetect, &IFileManager::Get(), EFileWrite::FILEWRITE_Append))
+		{
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Failed to write FString to file."));
+		}
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Attempts.txt not found!"));
 	}
 }

@@ -58,5 +58,7 @@ private:
 	int32 Timer;
 
 	TArray<AActor> actorz;
+
+	void RecordFailedAttempt();
 	
 };
