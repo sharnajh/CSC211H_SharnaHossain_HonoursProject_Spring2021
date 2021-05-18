@@ -20,6 +20,8 @@ USignalLights::USignalLights()
 void USignalLights::BeginPlay()
 {
 	Super::BeginPlay();
+
+	// Code to locate the instance of the VRCharacter class
 	UE_LOG(LogTemp, Error, TEXT("%i"), GetWorld()->GetActorCount());
 	TArray<UStaticMeshComponent *> Components;
 	GetOwner()->GetComponents<UStaticMeshComponent>(Components);
@@ -29,6 +31,7 @@ void USignalLights::BeginPlay()
 	}
 	StaticMesh = Components[0];
 
+	// Initializing variables
 	Player = GetWorld()->GetFirstPlayerController()->GetPawn();
 	Go = false;
 	Timer = 0;
@@ -51,6 +54,7 @@ void USignalLights::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 
 void USignalLights::Lights()
 {
+	// Game functionality
 	if (Go)
 	{
 		StaticMesh->SetMaterial(0, GoMaterial);
@@ -71,6 +75,7 @@ void USignalLights::Lights()
 		}
 	}
 
+	// Timer functionality
 	Timer++;
 
 	if (Timer >= 500)
@@ -82,6 +87,7 @@ void USignalLights::Lights()
 
 void USignalLights::RecordFailedAttempt()
 {
+	// Outputs failed attempt to file
 	FString AttemptsPath = FPaths::ProjectConfigDir();
 	AttemptsPath.Append(TEXT("Attempts.txt"));
 	IPlatformFile &FileManager = FPlatformFileManager::Get().GetPlatformFile();

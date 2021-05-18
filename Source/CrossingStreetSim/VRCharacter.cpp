@@ -15,6 +15,7 @@ AVRCharacter::AVRCharacter()
 	// VRRoot = CreateDefaultSubobject<USceneComponent>(TEXT("VRRoot"));
 	// VRRoot->SetupAttachment(GetRootComponent());
 
+	// Initialize camera
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(GetRootComponent());
 }
@@ -30,6 +31,7 @@ void AVRCharacter::BeginPlay()
 	// UE_LOG(LogTemp, Error, TEXT("%s"), *GetOwner()->GetActorLocation().ToString());
 	CameraInput = FVector2D(0.f, 0.f);
 
+	// Throttles movement speed
 	MovementComponent = GetCharacterMovement();
 	MovementComponent->MaxWalkSpeed = MaxSpeed;
 
@@ -61,6 +63,7 @@ void AVRCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// Rotates camera with mouse
 	FRotator NewRotation = Camera->GetRelativeRotation();
 	NewRotation.Yaw += CameraInput.X;
 	Camera->SetRelativeRotation(NewRotation);
@@ -71,6 +74,7 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent *PlayerInputCompone
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// Binds Input Controls
 	PlayerInputComponent->BindAxis(TEXT("Forward"), this, &AVRCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
 	PlayerInputComponent->BindAxis(TEXT("CameraYaw"), this, &AVRCharacter::LookRight);
@@ -78,15 +82,18 @@ void AVRCharacter::SetupPlayerInputComponent(UInputComponent *PlayerInputCompone
 
 void AVRCharacter::MoveForward(float throttle)
 {
+	// Moves player forward or backward
 	AddMovementInput(throttle * Camera->GetForwardVector());
 }
 
 void AVRCharacter::MoveRight(float throttle)
 {
+	// Moves player right or left
 	AddMovementInput(throttle * Camera->GetRightVector());
 }
 
 void AVRCharacter::LookRight(float AxisValue)
 {
+	// Moves Camera
 	CameraInput.X = AxisValue;
 }
